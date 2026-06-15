@@ -1,0 +1,104 @@
+{
+  "_description": "全球B2B跨境电商平台数据库, 按目标市场和适用产品组织, 用于AI分析师生成渠道建议",
+  "platforms": {
+    "amazon": {
+      "name": "Amazon Global Selling",
+      "type": "B2C/B2B",
+      "url": "sell.amazon.com",
+      "best_for_countries": ["USA", "DEU", "GBR", "JPN", "FRA", "AUS"],
+      "best_for_categories": ["消费电子", "家居用品", "服装配饰", "运动户外"],
+      "entry_cost": "中高(月费$39.99+佣金8-15%)",
+      "pros": "全球最大流量, FBA物流省心, 欧美日消费者首选渠道",
+      "cons": "竞争激烈, 规则严格, 账号风险高, 需要精细化运营",
+      "suitable_for": "有电商运营团队, 产品有差异化, 愿投入广告预算"
+    },
+    "alibaba": {
+      "name": "阿里巴巴国际站 Alibaba.com",
+      "type": "B2B",
+      "url": "alibaba.com",
+      "best_for_countries": ["全球", "USA", "IND", "BRA", "ARE", "VNM"],
+      "best_for_categories": ["全品类", "工业品", "原材料", "OEM/ODM", "塑料制品"],
+      "entry_cost": "低-中(会员$3,999-5,999/年)",
+      "pros": "全球最大B2B平台, 询盘量大, 适合OEM/ODM接单",
+      "cons": "价格竞争激烈, 买家质量参差不齐, 品牌建设难",
+      "suitable_for": "工厂型外贸企业, 接受定制订单, 起订量灵活"
+    },
+    "made_in_china": {
+      "name": "中国制造网 Made-in-China.com",
+      "type": "B2B",
+      "url": "made-in-china.com",
+      "best_for_countries": ["全球", "DEU", "GBR", "AUS", "RUS", "ZAF"],
+      "best_for_categories": ["工业机械", "五金工具", "电子元器件", "建筑建材"],
+      "entry_cost": "低(会员约2-3万/年)",
+      "pros": "工业品询盘质量较高, 欧洲买家占比高",
+      "cons": "流量不及阿里国际站, 消费品覆盖较弱",
+      "suitable_for": "工业品/中间品企业, 目标欧美工业客户"
+    },
+    "global_sources": {
+      "name": "环球资源 Global Sources",
+      "type": "B2B",
+      "url": "globalsources.com",
+      "best_for_countries": ["全球", "USA", "DEU", "JPN"],
+      "best_for_categories": ["消费电子", "移动配件", "智能家居", "礼品"],
+      "entry_cost": "中(会员+展会套餐)",
+      "pros": "电子品类买家质量高, 线上线下结合(香港展)",
+      "cons": "品类较窄, 非电子产品效果有限",
+      "suitable_for": "电子产品OEM/ODM, 有香港展参展计划"
+    },
+    "coupang": {
+      "name": "Coupang 韩国电商",
+      "type": "B2C",
+      "url": "coupang.com",
+      "best_for_countries": ["KOR"],
+      "best_for_categories": ["消费电子", "家居日用", "母婴", "美妆"],
+      "entry_cost": "中",
+      "pros": "韩国最大电商, 火箭配送体系, 中国卖家入驻政策友好",
+      "cons": "仅覆盖韩国市场, 韩语运营要求",
+      "suitable_for": "有韩国市场意向, 中韩FTA下零关税优势"
+    },
+    "shopee": {
+      "name": "Shopee 虾皮",
+      "type": "B2C",
+      "url": "shopee.cn",
+      "best_for_countries": ["VNM", "THA", "MYS", "IDN", "SGP"],
+      "best_for_categories": ["消费电子", "服装", "美妆", "家居", "快消品"],
+      "entry_cost": "低(免入驻费, 佣金5-8%)",
+      "pros": "东南亚+拉美市场覆盖, 入驻门槛低, 适合中小企业",
+      "cons": "客单价低, 价格战严重, 利润空间有限",
+      "suitable_for": "中小企业试水东南亚, 有性价比优势的产品"
+    },
+    "noon": {
+      "name": "Noon 中东电商",
+      "type": "B2C",
+      "url": "noon.com",
+      "best_for_countries": ["ARE", "SAU"],
+      "best_for_categories": ["消费电子", "时尚", "美妆", "家居"],
+      "entry_cost": "中",
+      "pros": "中东最大本土电商, 高客单价, 竞争较欧美小",
+      "cons": "COD占比高(退货风险), 中东物流复杂",
+      "suitable_for": "有中东市场意向, 产品适合海湾消费者"
+    },
+    "mercadolibre": {
+      "name": "Mercado Libre 美客多",
+      "type": "B2C",
+      "url": "mercadolibre.com",
+      "best_for_countries": ["BRA", "MEX"],
+      "best_for_categories": ["消费电子", "家居", "服装", "运动户外"],
+      "entry_cost": "中",
+      "pros": "拉美最大电商, 市场增速快, 中国卖家少竞争小",
+      "cons": "物流和清关复杂, 需本地化运营, 汇率风险",
+      "suitable_for": "有拉美市场意向, 能处理跨境物流和清关"
+    },
+    "rakuten": {
+      "name": "乐天 Rakuten 日本",
+      "type": "B2C",
+      "url": "rakuten.co.jp",
+      "best_for_countries": ["JPN"],
+      "best_for_categories": ["消费电子", "家居", "服装", "食品"],
+      "entry_cost": "高(月费+佣金)",
+      "pros": "日本本土最大电商之一, 用户忠诚度高",
+      "cons": "入驻门槛高, 需日本公司/代理, 日语运营",
+      "suitable_for": "有实力的大企业, 日本市场长期投入"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# API 密钥 — 不提交到 Git
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit
+.streamlit/
+
+# 运行时生成
+data/analysis_context.json
+
+# 大文件 (PPT/Word)
+*.pptx
+*.docx
+
+# macOS
+.DS_Store
+
+# 提交用拷贝文件夹
+出口目的国智能推荐系统_邓丽洒曾善美/

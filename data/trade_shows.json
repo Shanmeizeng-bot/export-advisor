@@ -1,0 +1,143 @@
+{
+  "_description": "全球主要行业展会数据库, 按产品类别和国家组织, 用于AI分析师生成参展建议",
+  "消费电子": {
+    "USA": [
+      {"name": "CES 国际消费电子展", "city": "拉斯维加斯", "month": "1月", "scale": "全球最大", "url": "ces.tech", "notes": "全球消费电子风向标, 适合品牌曝光和渠道拓展"},
+      {"name": "NAB Show 广播电视展", "city": "拉斯维加斯", "month": "4月", "scale": "专业大展", "url": "nabshow.com", "notes": "影音设备专业展, B2B为主"}
+    ],
+    "DEU": [
+      {"name": "IFA 柏林国际消费电子展", "city": "柏林", "month": "9月", "scale": "全球顶级", "url": "ifa-berlin.com", "notes": "欧洲最大消费电子展, 进入欧盟市场的核心门户"},
+      {"name": "ISE 集成系统欧洲展", "city": "巴塞罗那(轮换)", "month": "2月", "scale": "专业大展", "url": "iseurope.org", "notes": "专业AV系统集成, 欧洲最大"}
+    ],
+    "ARE": [
+      {"name": "GITEX Global 海湾信息技术展", "city": "迪拜", "month": "10月", "scale": "中东最大", "url": "gitex.com", "notes": "中东+非洲+南亚市场门户, 覆盖30亿人口市场"},
+      {"name": "GITEX Africa", "city": "马拉喀什(摩洛哥)", "month": "5月", "scale": "非洲最大", "url": "gitexafrica.com", "notes": "非洲科技市场入口"}
+    ],
+    "JPN": [
+      {"name": "CEATEC 日本高新电子展", "city": "千叶", "month": "10月", "scale": "日本最大", "url": "ceatec.com", "notes": "日本最大IT/电子展, 适合切入日本高端市场"}
+    ],
+    "KOR": [
+      {"name": "KES 韩国电子展", "city": "首尔", "month": "10月", "scale": "韩国最大", "url": "kes.org", "notes": "韩国最大电子展, 中韩FTA下零关税优势"}
+    ],
+    "BRA": [
+      {"name": "Eletrolar Show 巴西消费电子展", "city": "圣保罗", "month": "7月", "scale": "拉美最大", "url": "eletrolarshow.com.br", "notes": "拉美消费电子B2B核心展会"}
+    ],
+    "VNM": [
+      {"name": "Vietnam ICT COMM", "city": "胡志明市", "month": "6月", "scale": "越南最大", "url": "vietnam-ictcomm.com", "notes": "越南IT/电子采购展"}
+    ]
+  },
+  "纺织服装": {
+    "USA": [
+      {"name": "MAGIC Las Vegas 时装展", "city": "拉斯维加斯", "month": "2月/8月", "scale": "北美最大", "url": "magicfashionevents.com", "notes": "北美服装采购核心展, 沃尔玛等大买家集中采购"},
+      {"name": "Texworld USA", "city": "纽约", "month": "1月/7月", "scale": "专业面料展", "url": "texworldusa.us", "notes": "面料及辅料专业展"}
+    ],
+    "DEU": [
+      {"name": "MUNICH FABRIC START", "city": "慕尼黑", "month": "2月/9月", "scale": "欧洲核心", "url": "munichfabricstart.com", "notes": "欧洲高端面料展, 对接欧洲品牌"},
+      {"name": "Techtextil 产业用纺织品展", "city": "法兰克福", "month": "4月(双年)", "scale": "全球最大", "url": "techtextil.com", "notes": "技术纺织品全球第一展"}
+    ],
+    "FRA": [
+      {"name": "Première Vision 第一视觉面料展", "city": "巴黎", "month": "2月/9月", "scale": "全球顶级", "url": "premierevision.com", "notes": "全球面料趋势发布, 高端品牌采购必去"},
+      {"name": "Who's Next 时装展", "city": "巴黎", "month": "1月/9月", "scale": "欧洲核心", "url": "whosnext.com", "notes": "成衣配饰展, 对接欧洲买手店"}
+    ],
+    "ARE": [
+      {"name": "International Apparel & Textile Fair", "city": "迪拜", "month": "4月/11月", "scale": "中东最大", "url": "textiledubai.com", "notes": "覆盖中东+非洲+南亚纺织采购"}
+    ],
+    "VNM": [
+      {"name": "Vietnam International Textile & Garment Expo", "city": "胡志明市", "month": "4月", "scale": "越南最大", "url": "vietnamtextileexpo.com", "notes": "越南纺织服装供应链展"}
+    ]
+  },
+  "LED照明": {
+    "DEU": [
+      {"name": "Light + Building 法兰克福照明展", "city": "法兰克福", "month": "3月(双年)", "scale": "全球最大", "url": "light-building.com", "notes": "全球照明+建筑自动化第一展, 必须参加"}
+    ],
+    "USA": [
+      {"name": "LightFair 北美照明展", "city": "轮换(拉斯维加斯/纽约)", "month": "5月", "scale": "北美最大", "url": "lightfair.com", "notes": "北美照明市场核心入口"},
+      {"name": "LED Specifier Summit", "city": "芝加哥", "month": "8月", "scale": "专业展", "url": "ledspecifiersummit.com", "notes": "LED专业规格展, 对接工程商"}
+    ],
+    "ARE": [
+      {"name": "Light Middle East", "city": "迪拜", "month": "10月", "scale": "中东最大", "url": "lightme.com", "notes": "中东+非洲照明市场核心展"}
+    ],
+    "JPN": [
+      {"name": "LED Next Stage", "city": "东京", "month": "3月", "scale": "日本专业展", "url": "lednextstage.jp", "notes": "日本LED照明专业展"}
+    ]
+  },
+  "家具家居": {
+    "DEU": [
+      {"name": "IMM Cologne 科隆国际家具展", "city": "科隆", "month": "1月", "scale": "全球顶级", "url": "imm-cologne.com", "notes": "全球家具趋势发布"},
+      {"name": "Ambiente 法兰克福消费品展", "city": "法兰克福", "month": "2月", "scale": "全球最大", "url": "ambiente.messefrankfurt.com", "notes": "家居用品+礼品全球第一展"}
+    ],
+    "USA": [
+      {"name": "High Point Market", "city": "高点(北卡)", "month": "4月/10月", "scale": "全球最大", "url": "highpointmarket.org", "notes": "全球最大家具展, 必须参加"},
+      {"name": "ICFF 纽约当代家具展", "city": "纽约", "month": "5月", "scale": "北美核心", "url": "icff.com", "notes": "高端设计家具展"}
+    ],
+    "ARE": [
+      {"name": "INDEX Dubai 迪拜家具展", "city": "迪拜", "month": "5月", "scale": "中东最大", "url": "indexexhibition.com", "notes": "中东+非洲家具/室内设计核心展"}
+    ],
+    "ITA": [
+      {"name": "Salone del Mobile 米兰家具展", "city": "米兰", "month": "4月", "scale": "全球设计之巅", "url": "salonemilano.it", "notes": "全球设计家具第一展, 品牌升级必去"}
+    ]
+  },
+  "汽车零部件": {
+    "DEU": [
+      {"name": "Automechanika Frankfurt", "city": "法兰克福", "month": "9月(双年)", "scale": "全球最大", "url": "automechanika.com", "notes": "汽车后市场全球第一展, 必须参加"}
+    ],
+    "USA": [
+      {"name": "AAPEX 拉斯维加斯汽配展", "city": "拉斯维加斯", "month": "11月", "scale": "北美最大", "url": "aapexshow.com", "notes": "北美汽车后市场核心入口"},
+      {"name": "SEMA Show 改装车展", "city": "拉斯维加斯", "month": "11月", "scale": "全球最大改装展", "url": "semashow.com", "notes": "汽车改装/个性化产品"}
+    ],
+    "ARE": [
+      {"name": "Automechanika Dubai", "city": "迪拜", "month": "12月", "scale": "中东非洲最大", "url": "automechanikadubai.com", "notes": "中东+非洲汽车后市场门户"}
+    ],
+    "MEX": [
+      {"name": "INA PAACE Automechanika Mexico", "city": "墨西哥城", "month": "7月", "scale": "拉美最大", "url": "paaceautomechanika.com", "notes": "墨西哥+拉美汽配市场入口"}
+    ]
+  },
+  "通用机械": {
+    "DEU": [
+      {"name": "Hannover Messe 汉诺威工业展", "city": "汉诺威", "month": "4月", "scale": "全球最大", "url": "hannovermesse.de", "notes": "全球工业技术第一展"},
+      {"name": "BAUMA 慕尼黑工程机械展", "city": "慕尼黑", "month": "4月(三年)", "scale": "全球最大", "url": "bauma.de", "notes": "工程机械全球第一展"}
+    ],
+    "USA": [
+      {"name": "CONEXPO-CON/AGG", "city": "拉斯维加斯", "month": "3月(三年)", "scale": "北美最大", "url": "conexpoconagg.com", "notes": "北美工程机械展"}
+    ]
+  },
+  "塑料制品": {
+    "DEU": [
+      {"name": "Interpack 国际包装展", "city": "杜塞尔多夫", "month": "5月(三年)", "scale": "全球最大包装展", "url": "interpack.com", "notes": "全球食品包装+塑料包装第一展, 进入欧盟市场的核心通道"},
+      {"name": "K Show 国际橡塑展", "city": "杜塞尔多夫", "month": "10月(三年)", "scale": "全球塑料第一展", "url": "k-online.com", "notes": "全球橡塑行业最大展会, 对接欧洲品牌和加工商"},
+      {"name": "FachPack 欧洲包装展", "city": "纽伦堡", "month": "9月", "scale": "欧洲核心包装展", "url": "fachpack.de", "notes": "欧洲食品包装和消费品包装专业展"}
+    ],
+    "USA": [
+      {"name": "Pack Expo 国际包装展", "city": "拉斯维加斯/芝加哥", "month": "9月/11月", "scale": "北美最大", "url": "packexpo.com", "notes": "北美最大包装展, 食品容器/餐盒类产品的核心渠道"},
+      {"name": "NPE 美国橡塑展", "city": "奥兰多", "month": "5月(三年)", "scale": "北美最大橡塑展", "url": "npe.org", "notes": "全美最大橡塑行业展, 对接北美包装加工商"},
+      {"name": "Natural Products Expo West", "city": "阿纳海姆", "month": "3月", "scale": "北美最大天然产品展", "url": "expowest.com", "notes": "适合可降解/环保塑料制品的展示和渠道拓展"}
+    ],
+    "JPN": [
+      {"name": "Tokyo Pack 东京包装展", "city": "东京", "month": "10月(双年)", "scale": "日本最大包装展", "url": "tokyo-pack.jp", "notes": "日本食品包装市场核心入口, 日本买家对包装品质要求极高"},
+      {"name": "FOODEX Japan 食品饮料展", "city": "东京", "month": "3月", "scale": "亚洲最大食品展", "url": "jma.or.jp/foodex", "notes": "食品包装容器企业可对接日本食品行业终端客户"}
+    ],
+    "KOR": [
+      {"name": "KOPLAS 韩国橡塑展", "city": "首尔", "month": "3月(双年)", "scale": "韩国最大", "url": "koplas.com", "notes": "韩国橡塑市场入口, 中韩FTA下零关税塑料制品有优势"},
+      {"name": "SEOUL Food 首尔食品展", "city": "首尔", "month": "5月", "scale": "韩国最大食品展", "url": "seoulfood.or.kr", "notes": "对接韩国餐饮包装需求"}
+    ],
+    "ARE": [
+      {"name": "ArabPlast 阿拉伯橡塑展", "city": "迪拜", "month": "1月(双年)", "scale": "中东最大", "url": "arabplast.info", "notes": "中东+非洲塑料包装市场核心展, 辐射30亿人口"},
+      {"name": "Gulfood Manufacturing 海湾食品制造展", "city": "迪拜", "month": "11月", "scale": "中东最大食品制造展", "url": "gulfoodmanufacturing.com", "notes": "食品包装+加工设备, 中东餐饮业爆发式增长"}
+    ],
+    "THA": [
+      {"name": "PROPAK Asia 亚洲包装展", "city": "曼谷", "month": "6月", "scale": "东南亚最大", "url": "propakasia.com", "notes": "东南亚食品包装+塑料包装核心展"},
+      {"name": "T-PLAS 泰国橡塑展", "city": "曼谷", "month": "9月(双年)", "scale": "东盟最大", "url": "tplas.com", "notes": "东盟橡塑市场入口"}
+    ],
+    "VNM": [
+      {"name": "VietnamPlas 越南橡塑展", "city": "胡志明市", "month": "9月", "scale": "越南最大", "url": "vietnamplas.vn", "notes": "越南塑料包装市场快速增长, 本土产能不足严重依赖进口"},
+      {"name": "ProPak Vietnam 越南包装展", "city": "胡志明市", "month": "3月", "scale": "越南最大包装展", "url": "propakvietnam.com", "notes": "越南食品饮料包装需求旺盛"}
+    ],
+    "IND": [
+      {"name": "PlastIndia 印度橡塑展", "city": "新德里", "month": "2月(三年)", "scale": "印度最大", "url": "plastindia.org", "notes": "14亿人口市场, 塑料制品需求巨大但需注意BIS认证门槛"},
+      {"name": "PackEx India 印度包装展", "city": "孟买", "month": "10月", "scale": "印度最大包装展", "url": "packexindia.com", "notes": "印度食品包装市场快速增长"}
+    ],
+    "AUS": [
+      {"name": "AUSPACK 澳大利亚包装展", "city": "悉尼/墨尔本", "month": "5月(双年)", "scale": "澳洲最大", "url": "auspack.com.au", "notes": "RCEP框架下澳洲塑料包装进口增长, 环保要求严格"}
+    ]
+  }
+}

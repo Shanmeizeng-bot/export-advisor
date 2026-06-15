@@ -1,0 +1,29 @@
+{
+  "rcep": {
+    "_default": {"rule_type": "CTC", "rule_description": "品目改变", "alternative_rule": "RVC不低于40%", "cumulation_allowed": true, "cumulation_note": "允许RCEP成员国原材料累积计算", "minimum_processing": "需要完成关键制造或组装工序", "documents_required": ["RCEP原产地证书（Form RCEP）", "原材料来源声明", "生产工序清单"], "difficulty": "中"},
+    "610910": {"rule_type": "CTH + RVC", "rule_description": "章改变，且RVC不低于40%", "alternative_rule": "无替代规则", "cumulation_allowed": true, "cumulation_note": "允许RCEP成员国原材料累积，面料需在成员国织造染色", "minimum_processing": "裁剪+缝制，仅剪标或熨烫不满足", "documents_required": ["RCEP原产地证书", "面料来源证明", "工序记录（裁剪→缝制→整烫）"], "difficulty": "高"},
+    "620462": {"rule_type": "CTH + RVC", "rule_description": "章改变，且RVC不低于40%", "alternative_rule": "无替代规则", "cumulation_allowed": true, "cumulation_note": "允许RCEP成员国原材料累积，面料需在成员国织造染色", "minimum_processing": "裁剪+缝制，仅剪标或熨烫不满足", "documents_required": ["RCEP原产地证书", "面料来源证明", "工序记录（裁剪→缝制→整烫）"], "difficulty": "高"},
+    "640399": {"rule_type": "CTC", "rule_description": "品目改变", "alternative_rule": "RVC不低于40%", "cumulation_allowed": true, "cumulation_note": "允许RCEP成员国原材料累积", "minimum_processing": "鞋面与鞋底缝合或粘合工序", "documents_required": ["RCEP原产地证书", "原材料采购记录", "加工工序记录"], "difficulty": "中"},
+    "420221": {"rule_type": "CTC", "rule_description": "品目改变", "alternative_rule": "RVC不低于40%", "cumulation_allowed": true, "cumulation_note": "允许RCEP成员国原材料累积", "minimum_processing": "裁剪+缝制工序", "documents_required": ["RCEP原产地证书", "皮料/面料来源证明", "加工工序记录"], "difficulty": "中"},
+    "950300": {"rule_type": "CTC", "rule_description": "品目改变", "alternative_rule": "RVC不低于40%", "cumulation_allowed": true, "cumulation_note": "允许RCEP成员国原材料累积", "minimum_processing": "组装+安全检测工序", "documents_required": ["RCEP原产地证书", "原材料来源声明"], "difficulty": "低"}
+  },
+  "china_korea_fta": {
+    "_default": {"rule_type": "CTC + RVC", "rule_description": "品目改变，且RVC不低于45%", "alternative_rule": "无替代规则", "cumulation_allowed": false, "cumulation_note": "仅中韩双边原材料累积", "minimum_processing": "关键制造或组装工序", "documents_required": ["中韩FTA原产地证书", "RVC计算表（≥45%）", "原材料采购证明（中国或韩国来源）"], "difficulty": "高"},
+    "610910": {"rule_type": "CTH + RVC + SP", "rule_description": "章改变，且RVC不低于55%，且满足特定工序（从纱线开始）", "alternative_rule": "无替代规则", "cumulation_allowed": false, "cumulation_note": "仅中韩双边，需从纱线阶段起", "minimum_processing": "从面料制造起或至少裁剪+缝制", "documents_required": ["中韩FTA原产地证书", "RVC计算表（≥55%）", "从纱线到成衣完整工序证明", "面料产地证明"], "difficulty": "极高"},
+    "620462": {"rule_type": "CTH + RVC + SP", "rule_description": "章改变，且RVC不低于55%，且满足特定工序（从纱线开始）", "alternative_rule": "无替代规则", "cumulation_allowed": false, "cumulation_note": "仅中韩双边，需从纱线阶段起", "minimum_processing": "从面料制造起或至少裁剪+缝制", "documents_required": ["中韩FTA原产地证书", "RVC计算表（≥55%）", "从纱线到成衣完整工序证明", "面料产地证明"], "difficulty": "极高"},
+    "640399": {"rule_type": "CTC + RVC", "rule_description": "品目改变，且RVC不低于50%", "alternative_rule": "无替代规则", "cumulation_allowed": false, "cumulation_note": "仅中韩双边", "minimum_processing": "鞋面与鞋底工序，加工增值≥50%", "documents_required": ["中韩FTA原产地证书", "RVC计算表（≥50%）", "鞋材来源证明"], "difficulty": "高"},
+    "420221": {"rule_type": "CTC + RVC", "rule_description": "品目改变，且RVC不低于45%", "alternative_rule": "无替代规则", "cumulation_allowed": false, "cumulation_note": "仅中韩双边", "minimum_processing": "裁剪+缝制+五金件组装", "documents_required": ["中韩FTA原产地证书", "RVC计算表（≥45%）", "皮料/五金来源证明"], "difficulty": "高"},
+    "950300": {"rule_type": "CTC + RVC", "rule_description": "品目改变，且RVC不低于45%", "alternative_rule": "无替代规则", "cumulation_allowed": false, "cumulation_note": "仅中韩双边", "minimum_processing": "组装+安全检测", "documents_required": ["中韩FTA原产地证书", "RVC计算表（≥45%）", "原材料来源证明"], "difficulty": "中"}
+  },
+  "china_asean_fta": {
+    "_default": {"rule_type": "CTC 或 RVC", "rule_description": "品目改变，或RVC不低于40%（二选一）", "alternative_rule": "RVC不低于40%", "cumulation_allowed": true, "cumulation_note": "允许中国-东盟成员国原材料累积", "minimum_processing": "关键制造或组装工序", "documents_required": ["中国-东盟FTA原产地证书（Form E）", "原材料来源声明"], "difficulty": "低"},
+    "610910": {"rule_type": "CTH + RVC", "rule_description": "章改变，且RVC不低于40%", "alternative_rule": "无替代规则", "cumulation_allowed": true, "cumulation_note": "允许中国-东盟成员国原材料累积", "minimum_processing": "裁剪+缝制工序", "documents_required": ["Form E原产地证书", "面料来源证明", "工序说明"], "difficulty": "中"},
+    "620462": {"rule_type": "CTH + RVC", "rule_description": "章改变，且RVC不低于40%", "alternative_rule": "无替代规则", "cumulation_allowed": true, "cumulation_note": "允许中国-东盟成员国原材料累积", "minimum_processing": "裁剪+缝制工序", "documents_required": ["Form E原产地证书", "面料来源证明", "工序说明"], "difficulty": "中"},
+    "640399": {"rule_type": "CTC", "rule_description": "品目改变", "alternative_rule": "RVC不低于40%", "cumulation_allowed": true, "cumulation_note": "允许中国-东盟成员国原材料累积", "minimum_processing": "鞋面与鞋底缝合或粘合", "documents_required": ["Form E原产地证书", "原材料采购记录"], "difficulty": "低"},
+    "420221": {"rule_type": "CTC", "rule_description": "品目改变", "alternative_rule": "RVC不低于40%", "cumulation_allowed": true, "cumulation_note": "允许中国-东盟成员国原材料累积", "minimum_processing": "裁剪+缝制工序", "documents_required": ["Form E原产地证书", "皮料来源证明"], "difficulty": "低"},
+    "950300": {"rule_type": "CTC", "rule_description": "品目改变", "alternative_rule": "RVC不低于40%", "cumulation_allowed": true, "cumulation_note": "允许中国-东盟成员国原材料累积", "minimum_processing": "组装+安全检测", "documents_required": ["Form E原产地证书", "原材料来源声明"], "difficulty": "低"}
+  },
+  "wto_mfn": {
+    "_default": {"rule_type": "无", "rule_description": "WTO最惠国待遇无原产地要求", "alternative_rule": "N/A", "cumulation_allowed": false, "cumulation_note": "N/A", "minimum_processing": "无特定要求", "documents_required": ["商业发票", "装箱单"], "difficulty": "低"}
+  }
+}

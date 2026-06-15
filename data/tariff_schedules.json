@@ -1,0 +1,202 @@
+{
+  "rcep": {
+    "china_to_korea": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 8.0, "current_rate_2026": 6.4, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 8.0, "current_rate_2026": 6.4, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 8.0, "current_rate_2026": 6.4, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "610910": {"product_name": "T恤衫", "base_rate": 13.0, "current_rate_2026": 11.1, "final_rate": 0.0, "final_year": 2045, "staging_category": "R20"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 13.0, "current_rate_2026": 11.1, "final_rate": 0.0, "final_year": 2045, "staging_category": "R20"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 13.0, "current_rate_2026": 10.4, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "420221": {"product_name": "手提包", "base_rate": 8.0, "current_rate_2026": 6.4, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "940360": {"product_name": "木质家具", "base_rate": 5.0, "current_rate_2026": 4.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "950300": {"product_name": "玩具", "base_rate": 8.0, "current_rate_2026": 6.4, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"}
+    },
+    "china_to_japan": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "610910": {"product_name": "T恤衫", "base_rate": 9.0, "current_rate_2026": 5.4, "final_rate": 0.0, "final_year": 2036, "staging_category": "R16"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 9.0, "current_rate_2026": 5.4, "final_rate": 0.0, "final_year": 2036, "staging_category": "R16"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 10.0, "current_rate_2026": 6.0, "final_rate": 0.0, "final_year": 2036, "staging_category": "R16"},
+      "420221": {"product_name": "手提包", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "940360": {"product_name": "木质家具", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "950300": {"product_name": "玩具", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"}
+    },
+    "china_to_australia": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 5.0, "current_rate_2026": 4.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 5.0, "current_rate_2026": 4.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 5.0, "current_rate_2026": 4.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "610910": {"product_name": "T恤衫", "base_rate": 5.0, "current_rate_2026": 4.3, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 5.0, "current_rate_2026": 4.3, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 5.0, "current_rate_2026": 3.5, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "420221": {"product_name": "手提包", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "940360": {"product_name": "木质家具", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2028, "staging_category": "R3"},
+      "950300": {"product_name": "玩具", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"}
+    },
+    "china_to_vietnam": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "610910": {"product_name": "T恤衫", "base_rate": 12.0, "current_rate_2026": 9.0, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 12.0, "current_rate_2026": 9.0, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 15.0, "current_rate_2026": 12.0, "final_rate": 0.0, "final_year": 2045, "staging_category": "R20"},
+      "420221": {"product_name": "手提包", "base_rate": 10.0, "current_rate_2026": 7.0, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "940360": {"product_name": "木质家具", "base_rate": 10.0, "current_rate_2026": 6.0, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "950300": {"product_name": "玩具", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"}
+    },
+    "china_to_thailand": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "610910": {"product_name": "T恤衫", "base_rate": 10.0, "current_rate_2026": 7.5, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 10.0, "current_rate_2026": 7.5, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 12.0, "current_rate_2026": 9.6, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "420221": {"product_name": "手提包", "base_rate": 8.0, "current_rate_2026": 5.6, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "940360": {"product_name": "木质家具", "base_rate": 8.0, "current_rate_2026": 4.8, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "950300": {"product_name": "玩具", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"}
+    },
+    "china_to_malaysia": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"},
+      "610910": {"product_name": "T恤衫", "base_rate": 10.0, "current_rate_2026": 7.0, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 10.0, "current_rate_2026": 7.0, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 12.0, "current_rate_2026": 9.0, "final_rate": 0.0, "final_year": 2040, "staging_category": "R15"},
+      "420221": {"product_name": "手提包", "base_rate": 8.0, "current_rate_2026": 5.2, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "940360": {"product_name": "木质家具", "base_rate": 8.0, "current_rate_2026": 4.8, "final_rate": 0.0, "final_year": 2035, "staging_category": "R10"},
+      "950300": {"product_name": "玩具", "base_rate": 5.0, "current_rate_2026": 3.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R5"}
+    }
+  },
+  "china_korea_fta": {
+    "china_to_korea": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 8.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2019, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 8.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 8.0, "current_rate_2026": 2.7, "final_rate": 0.0, "final_year": 2030, "staging_category": "R10"},
+      "610910": {"product_name": "T恤衫", "base_rate": 13.0, "current_rate_2026": 5.2, "final_rate": 0.0, "final_year": 2035, "staging_category": "R15"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 13.0, "current_rate_2026": 5.2, "final_rate": 0.0, "final_year": 2035, "staging_category": "R15"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 13.0, "current_rate_2026": 4.3, "final_rate": 0.0, "final_year": 2030, "staging_category": "R10"},
+      "420221": {"product_name": "手提包", "base_rate": 8.0, "current_rate_2026": 2.0, "final_rate": 0.0, "final_year": 2030, "staging_category": "R10"},
+      "940360": {"product_name": "木质家具", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2023, "staging_category": "immediate"},
+      "950300": {"product_name": "玩具", "base_rate": 8.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2022, "staging_category": "immediate"}
+    }
+  },
+  "china_asean_fta": {
+    "china_to_vietnam": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2018, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "610910": {"product_name": "T恤衫", "base_rate": 12.0, "current_rate_2026": 2.4, "final_rate": 0.0, "final_year": 2028, "staging_category": "R8"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 12.0, "current_rate_2026": 2.4, "final_rate": 0.0, "final_year": 2028, "staging_category": "R8"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 15.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "420221": {"product_name": "手提包", "base_rate": 10.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "940360": {"product_name": "木质家具", "base_rate": 10.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2019, "staging_category": "immediate"},
+      "950300": {"product_name": "玩具", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2019, "staging_category": "immediate"}
+    },
+    "china_to_thailand": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2018, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "610910": {"product_name": "T恤衫", "base_rate": 10.0, "current_rate_2026": 2.0, "final_rate": 0.0, "final_year": 2028, "staging_category": "R8"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 10.0, "current_rate_2026": 2.0, "final_rate": 0.0, "final_year": 2028, "staging_category": "R8"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 12.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "420221": {"product_name": "手提包", "base_rate": 8.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "940360": {"product_name": "木质家具", "base_rate": 8.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2019, "staging_category": "immediate"},
+      "950300": {"product_name": "玩具", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2019, "staging_category": "immediate"}
+    },
+    "china_to_malaysia": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "847130": {"product_name": "笔记本电脑", "base_rate": 0.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2018, "staging_category": "immediate"},
+      "852871": {"product_name": "电视机顶盒", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "853950": {"product_name": "LED灯泡", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "610910": {"product_name": "T恤衫", "base_rate": 10.0, "current_rate_2026": 2.5, "final_rate": 0.0, "final_year": 2028, "staging_category": "R8"},
+      "620462": {"product_name": "棉制女裤", "base_rate": 10.0, "current_rate_2026": 2.5, "final_rate": 0.0, "final_year": 2028, "staging_category": "R8"},
+      "640399": {"product_name": "皮革鞋靴", "base_rate": 12.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "420221": {"product_name": "手提包", "base_rate": 8.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2020, "staging_category": "immediate"},
+      "940360": {"product_name": "木质家具", "base_rate": 8.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2019, "staging_category": "immediate"},
+      "950300": {"product_name": "玩具", "base_rate": 5.0, "current_rate_2026": 0.0, "final_rate": 0.0, "final_year": 2019, "staging_category": "immediate"}
+    }
+  },
+  "wto_mfn": {
+    "korea": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "rate": 8.0},
+      "847130": {"product_name": "笔记本电脑", "rate": 0.0},
+      "852871": {"product_name": "电视机顶盒", "rate": 8.0},
+      "853950": {"product_name": "LED灯泡", "rate": 8.0},
+      "610910": {"product_name": "T恤衫", "rate": 13.0},
+      "620462": {"product_name": "棉制女裤", "rate": 13.0},
+      "640399": {"product_name": "皮革鞋靴", "rate": 13.0},
+      "420221": {"product_name": "手提包", "rate": 8.0},
+      "940360": {"product_name": "木质家具", "rate": 5.0},
+      "950300": {"product_name": "玩具", "rate": 8.0}
+    },
+    "japan": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "rate": 0.0},
+      "847130": {"product_name": "笔记本电脑", "rate": 0.0},
+      "852871": {"product_name": "电视机顶盒", "rate": 0.0},
+      "853950": {"product_name": "LED灯泡", "rate": 0.0},
+      "610910": {"product_name": "T恤衫", "rate": 9.0},
+      "620462": {"product_name": "棉制女裤", "rate": 9.0},
+      "640399": {"product_name": "皮革鞋靴", "rate": 10.0},
+      "420221": {"product_name": "手提包", "rate": 5.0},
+      "940360": {"product_name": "木质家具", "rate": 0.0},
+      "950300": {"product_name": "玩具", "rate": 0.0}
+    },
+    "australia": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "rate": 5.0},
+      "847130": {"product_name": "笔记本电脑", "rate": 0.0},
+      "852871": {"product_name": "电视机顶盒", "rate": 5.0},
+      "853950": {"product_name": "LED灯泡", "rate": 5.0},
+      "610910": {"product_name": "T恤衫", "rate": 5.0},
+      "620462": {"product_name": "棉制女裤", "rate": 5.0},
+      "640399": {"product_name": "皮革鞋靴", "rate": 5.0},
+      "420221": {"product_name": "手提包", "rate": 5.0},
+      "940360": {"product_name": "木质家具", "rate": 5.0},
+      "950300": {"product_name": "玩具", "rate": 5.0}
+    },
+    "vietnam": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "rate": 5.0},
+      "847130": {"product_name": "笔记本电脑", "rate": 0.0},
+      "852871": {"product_name": "电视机顶盒", "rate": 5.0},
+      "853950": {"product_name": "LED灯泡", "rate": 5.0},
+      "610910": {"product_name": "T恤衫", "rate": 20.0},
+      "620462": {"product_name": "棉制女裤", "rate": 20.0},
+      "640399": {"product_name": "皮革鞋靴", "rate": 25.0},
+      "420221": {"product_name": "手提包", "rate": 15.0},
+      "940360": {"product_name": "木质家具", "rate": 20.0},
+      "950300": {"product_name": "玩具", "rate": 15.0}
+    },
+    "thailand": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "rate": 5.0},
+      "847130": {"product_name": "笔记本电脑", "rate": 0.0},
+      "852871": {"product_name": "电视机顶盒", "rate": 5.0},
+      "853950": {"product_name": "LED灯泡", "rate": 5.0},
+      "610910": {"product_name": "T恤衫", "rate": 20.0},
+      "620462": {"product_name": "棉制女裤", "rate": 20.0},
+      "640399": {"product_name": "皮革鞋靴", "rate": 20.0},
+      "420221": {"product_name": "手提包", "rate": 15.0},
+      "940360": {"product_name": "木质家具", "rate": 10.0},
+      "950300": {"product_name": "玩具", "rate": 10.0}
+    },
+    "malaysia": {
+      "851830": {"product_name": "头戴式耳机/耳塞", "rate": 5.0},
+      "847130": {"product_name": "笔记本电脑", "rate": 0.0},
+      "852871": {"product_name": "电视机顶盒", "rate": 5.0},
+      "853950": {"product_name": "LED灯泡", "rate": 5.0},
+      "610910": {"product_name": "T恤衫", "rate": 15.0},
+      "620462": {"product_name": "棉制女裤", "rate": 15.0},
+      "640399": {"product_name": "皮革鞋靴", "rate": 20.0},
+      "420221": {"product_name": "手提包", "rate": 15.0},
+      "940360": {"product_name": "木质家具", "rate": 15.0},
+      "950300": {"product_name": "玩具", "rate": 10.0}
+    }
+  }
+}

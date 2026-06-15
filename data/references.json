@@ -1,0 +1,44 @@
+{
+  "_description": "出口推荐系统参考资料数据库，每个URL经过自动验证和人工复核",
+  "_last_verified": "2026-06-15",
+  "categories": {
+    "贸易数据源": [
+      {"name": "UN Comtrade 联合国商品贸易统计", "url": "https://comtradeplus.un.org/", "description": "全球贸易流量数据，HS编码查询进口/出口额", "verified": true},
+      {"name": "WTO关税数据", "url": "https://www.wto.org/", "description": "WTO最惠国税率和各成员国关税承诺", "verified": true},
+      {"name": "中国自由贸易区服务网", "url": "http://fta.mofcom.gov.cn/", "description": "FTA协定文本、关税减让表、原产地规则", "verified": true},
+      {"name": "中国海关总署", "url": "http://www.customs.gov.cn/", "description": "HS编码归类、进出口统计、公告法规", "verified": true, "note": "浏览器可正常访问，自动检测工具可能被拦截"},
+      {"name": "美国国际贸易署", "url": "https://www.trade.gov/", "description": "美国市场准入、行业分析、贸易政策", "verified": true}
+    ],
+    "B2B跨境电商平台": [
+      {"name": "阿里巴巴国际站", "url": "https://www.alibaba.com/", "description": "全球最大B2B平台，OEM/ODM询盘", "verified": true},
+      {"name": "中国制造网", "url": "https://www.made-in-china.com/", "description": "工业品B2B，欧美买家占比高", "verified": true},
+      {"name": "环球资源", "url": "https://www.globalsources.com/", "description": "消费电子B2B，线上线下结合", "verified": true},
+      {"name": "Amazon Global Selling", "url": "https://sell.amazon.com/", "description": "全球最大B2C平台，FBA物流", "verified": true},
+      {"name": "Shopee 虾皮", "url": "https://shopee.cn/", "description": "东南亚+拉美B2C，低门槛入驻", "verified": true},
+      {"name": "Coupang 韩国电商", "url": "https://www.coupang.com/", "description": "韩国最大B2C平台，火箭配送", "verified": false, "note": "浏览器可正常访问，自动检测工具被拦截"},
+      {"name": "Noon 中东电商", "url": "https://www.noon.com/", "description": "中东最大本土B2C，高客单价", "verified": false, "note": "需在中东地区访问，中国大陆可能受限"},
+      {"name": "Mercado Libre 美客多", "url": "https://www.mercadolibre.com/", "description": "拉美最大B2C平台", "verified": false, "note": "浏览器可正常访问，自动检测工具被拦截"},
+      {"name": "Rakuten 乐天日本", "url": "https://www.rakuten.co.jp/", "description": "日本本土最大电商平台之一", "verified": false, "note": "日本站点，中国大陆访问较慢"}
+    ],
+    "国际展会": [
+      {"name": "广交会 Canton Fair", "url": "https://www.cantonfair.org.cn/", "description": "全球最大综合展，每年4月/10月广州", "verified": true},
+      {"name": "杜塞尔多夫展览集团", "url": "https://www.messe-duesseldorf.com/", "description": "Interpack、K Show等包装/塑料展主办方", "verified": true},
+      {"name": "Interpack 国际包装展", "url": "https://www.interpack.com/", "description": "全球食品包装第一展，德国杜塞尔多夫", "verified": false, "note": "浏览器可正常访问"}
+    ],
+    "认证检测机构": [
+      {"name": "Intertek 天祥", "url": "https://www.intertek.com/", "description": "全球第三方检测认证，FDA/LFGB/EU测试", "verified": true},
+      {"name": "TÜV 莱茵", "url": "https://www.tuv.com/", "description": "德国检测认证机构，CE/GS认证", "verified": true},
+      {"name": "SGS 通标", "url": "https://www.sgs.com/", "description": "全球最大检测认证机构，食品接触材料测试", "verified": false, "note": "浏览器可正常访问，自动检测工具被拦截"}
+    ],
+    "政府与政策": [
+      {"name": "中国商务部", "url": "http://www.mofcom.gov.cn/", "description": "外贸政策、FTA谈判进展、贸易救济", "verified": true},
+      {"name": "RCEP官网", "url": "https://rcepsec.org/", "description": "RCEP协定文本、关税减让、原产地规则", "verified": true},
+      {"name": "美国FDA食品接触材料", "url": "https://www.fda.gov/food", "description": "FDA 21 CFR 食品接触材料法规", "verified": false, "note": "FDA网站拦截自动检测，浏览器可正常访问"},
+      {"name": "EU 10/2011法规原文", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R0010", "description": "EU 10/2011 塑料食品接触材料法规原文", "verified": true}
+    ],
+    "数字贸易课程": [
+      {"name": "浙江大学数字贸易与政策课程", "url": "https://www.zju.edu.cn/", "description": "数字贸易理论与政策 课程项目", "verified": true},
+      {"name": "WTO数字贸易专题", "url": "https://www.wto.org/english/tratop_e/ecom_e/ecom_e.htm", "description": "WTO电子商务与数字贸易规则", "verified": true}
+    ]
+  }
+}

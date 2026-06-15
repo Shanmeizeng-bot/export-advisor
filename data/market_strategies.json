@@ -1,0 +1,218 @@
+{
+  "_description": "各国市场准入策略数据库, 包括认证要求、渠道策略、文化提示, 用于AI分析师生成定制化建议",
+  "USA": {
+    "certifications": [
+      {"name": "FCC", "description": "电子电器产品强制电磁兼容认证", "time": "2-4周", "cost": "$2,000-5,000"},
+      {"name": "UL/ETL", "description": "产品安全认证(虽然不是法律强制但零售商要求)", "time": "4-8周", "cost": "$5,000-20,000"},
+      {"name": "FDA", "description": "食品/药品/医疗器械/化妆品FDA注册", "time": "2-12周", "cost": "$1,000-10,000"},
+      {"name": "CPC", "description": "儿童产品证书(儿童用品强制)", "time": "2-4周", "cost": "$500-2,000"},
+      {"name": "DOT", "description": "汽车零部件需符合DOT标准", "time": "4-12周", "cost": "视产品"}
+    ],
+    "channel_strategy": "Amazon + 独立站Shopify + 线下批发(通过参加MAGIC/CES等展会接触分销商)",
+    "payment_terms": "T/T 30%预付+70%见提单副本, L/C信用证大额订单, 跨境电商用Payoneer/PingPong收款",
+    "cultural_note": "美国买家重视交期准时(迟到会罚款), 产品包装需英文+条形码UPC, 产品责任险建议购买",
+    "tariff_note": "2025年后对华301关税叠加, 部分电子产品加征至25-100%, 建议核查具体HS编码的最新税率"
+  },
+  "JPN": {
+    "certifications": [
+      {"name": "PSE", "description": "电器产品安全认证(强制)", "time": "4-8周", "cost": "$3,000-8,000"},
+      {"name": "TELEC", "description": "无线产品认证", "time": "4-8周", "cost": "$2,000-5,000"},
+      {"name": "JIS", "description": "日本工业标准(部分品类强制)", "time": "视产品", "cost": "视产品"},
+      {"name": "VCCI", "description": "信息技术设备电磁兼容", "time": "2-4周", "cost": "$1,000-3,000"}
+    ],
+    "channel_strategy": "日本本土代理商/进口商合作(日本商业文化注重关系) + Rakuten/Amazon Japan + 参加CEATEC展会",
+    "payment_terms": "日本买家信用好, T/T 30/70或L/C, 首次合作可能要求O/A(赊账)",
+    "cultural_note": "品质要求极严(日本有'质量零缺陷'文化), 说明书需专业日语翻译, 包装精致, 售后服务必须到位, 价格谈判空间小但长期合作稳定",
+    "tariff_note": "RCEP框架下多数产品关税逐步降至0, 2026年约降至基准税率的60-80%"
+  },
+  "KOR": {
+    "certifications": [
+      {"name": "KC", "description": "韩国安全认证(电器强制)", "time": "4-8周", "cost": "$2,000-6,000"},
+      {"name": "KC EMC", "description": "电磁兼容认证", "time": "2-4周", "cost": "$1,000-3,000"},
+      {"name": "KCs", "description": "产品安全确认(部分产品)", "time": "2-4周", "cost": "$500-1,500"}
+    ],
+    "channel_strategy": "Coupang(韩国最大电商) + 韩国进口商/代理商 + 参加KES展会, 中韩FTA零关税是核心优势",
+    "payment_terms": "T/T为主, 韩国买家付款信誉较好",
+    "cultural_note": "中韩文化相近, 沟通无障碍, 韩国消费者对设计感和品牌敏感, 价格接受度较高, 社交媒体(KakaoTalk/Naver)营销重要",
+    "tariff_note": "中韩FTA: 多数产品已实现零关税或接近零关税"
+  },
+  "DEU": {
+    "certifications": [
+      {"name": "CE", "description": "欧盟强制安全认证", "time": "2-8周", "cost": "$1,000-10,000"},
+      {"name": "GS", "description": "德国安全认证(高于CE标准, 德国市场强烈推荐)", "time": "8-12周", "cost": "$5,000-20,000"},
+      {"name": "WEEE", "description": "电子垃圾回收注册(电子电器强制)", "time": "2-4周", "cost": "€200-500/年"},
+      {"name": "REACH", "description": "化学品注册(含化学物质的产品)", "time": "4-12周", "cost": "视产品"},
+      {"name": "RoHS", "description": "有害物质限制(电子电器强制)", "time": "2-4周", "cost": "$1,000-3,000"}
+    ],
+    "channel_strategy": "Amazon DE + 德国专业进口商/批发商 + 参加IFA/Ambiente等法兰克福展会, 德国买家偏好面对面洽谈",
+    "payment_terms": "L/C或T/T, 德国买家信用极好, 30-60天账期常见",
+    "cultural_note": "德国人对品质和交期的要求全球最高, 说明书必须德文专业翻译, 环保要求严格(包装回收法), 价格谈判空间小但利润稳定",
+    "tariff_note": "WTO MFN税率适用(无中欧FTA), 但欧盟对多数消费电子MFN税率较低(0-5%), 注意反倾销产品"
+  },
+  "FRA": {
+    "certifications": [
+      {"name": "CE", "description": "欧盟强制安全认证", "time": "2-8周", "cost": "$1,000-10,000"},
+      {"name": "WEEE", "description": "电子垃圾回收注册", "time": "2-4周", "cost": "€200-500/年"},
+      {"name": "REACH/RoHS", "description": "化学品/有害物质合规", "time": "4-12周", "cost": "视产品"}
+    ],
+    "channel_strategy": "Amazon FR + Cdiscount(法国本土平台) + 巴黎展会(Première Vision/Who's Next), 法国市场偏好设计感和品牌故事",
+    "payment_terms": "L/C或T/T, 30-60天账期",
+    "cultural_note": "法语说明书和营销材料是必须的(法国人较排斥英语), 设计感和品牌调性重要, 注重售后服务",
+    "tariff_note": "同德国: WTO MFN税率, 无中欧FTA特殊优惠"
+  },
+  "GBR": {
+    "certifications": [
+      {"name": "UKCA", "description": "英国脱欧后独立安全认证(替代CE, 过渡期后强制)", "time": "2-8周", "cost": "$1,000-8,000"},
+      {"name": "UK WEEE", "description": "英国电子垃圾回收注册", "time": "2-4周", "cost": "£200-500/年"}
+    ],
+    "channel_strategy": "Amazon UK + 英国批发商/进口商 + 参加伦敦/伯明翰行业展会, 英国电商渗透率欧洲最高",
+    "payment_terms": "T/T或L/C, 30天账期常见",
+    "cultural_note": "UKCA认证是额外成本(不再认可CE), 英国消费者对性价比敏感度介于美国与德国之间, 英语市场门槛最低",
+    "tariff_note": "英国独立贸易政策, 无FTA特殊优惠, MFN税率适用"
+  },
+  "NLD": {
+    "certifications": [
+      {"name": "CE", "description": "欧盟强制安全认证(同德国)", "time": "2-8周", "cost": "$1,000-10,000"},
+      {"name": "WEEE/REACH/RoHS", "description": "欧盟统一合规要求", "time": "2-4周", "cost": "视产品"}
+    ],
+    "channel_strategy": "荷兰作为欧洲物流枢纽, 可在鹿特丹设立海外仓辐射全欧 + Amazon NL/Bol.com(荷兰最大电商) + 荷兰进口商",
+    "payment_terms": "T/T或L/C, 荷兰买家信誉好",
+    "cultural_note": "荷兰英语普及率极高沟通无障碍, 适合作为欧洲总部/仓储中心, 物流效率欧洲第一",
+    "tariff_note": "WTO MFN税率, 但荷兰海关效率高通关快"
+  },
+  "AUS": {
+    "certifications": [
+      {"name": "RCM", "description": "澳大利亚电器安全+EMC认证", "time": "4-8周", "cost": "$2,000-6,000"},
+      {"name": "SAA", "description": "澳大利亚标准认证(部分产品)", "time": "4-8周", "cost": "$1,500-5,000"}
+    ],
+    "channel_strategy": "Amazon AU + eBay AU + 澳大利亚进口商/批发商, 线上渠道为主(澳洲地广人稀线下渠道分散)",
+    "payment_terms": "T/T, 30天账期",
+    "cultural_note": "RCEP框架下贸易顺畅, 澳大利亚消费者对中国品牌接受度较高, 英文市场门槛低, 注意南半球季节与中国相反",
+    "tariff_note": "RCEP: 关税逐步降至零; 中澳FTA: 多数产品已零关税"
+  },
+  "VNM": {
+    "certifications": [
+      {"name": "CR", "description": "越南产品安全认证", "time": "2-6周", "cost": "$500-2,000"},
+      {"name": "QCVN", "description": "越南技术标准", "time": "2-6周", "cost": "视产品"}
+    ],
+    "channel_strategy": "Shopee/Lazada越南站 + 越南本地经销商(华商网络发达) + 边贸渠道(凭祥-友谊关), B2B为主B2C为辅",
+    "payment_terms": "T/T预付为主, 越南盾汇率波动大建议美元结算",
+    "cultural_note": "中国-东盟FTA零关税优势, 越南华商网络可帮助分销, 消费升级中但价格仍敏感, 可参加胡志明市展会",
+    "tariff_note": "中国-东盟FTA(ACFTA): 多数产品零关税, 但需满足原产地规则(FORM E)"
+  },
+  "THA": {
+    "certifications": [
+      {"name": "TISI", "description": "泰国工业标准认证", "time": "4-8周", "cost": "$1,000-4,000"},
+      {"name": "NBTC", "description": "无线通信产品认证", "time": "2-4周", "cost": "$500-2,000"}
+    ],
+    "channel_strategy": "Shopee/Lazada泰国站 + 泰国华人进口商(B2B为主) + 参加曼谷行业展会",
+    "payment_terms": "T/T预付或L/C",
+    "cultural_note": "泰国华商在进口批发领域影响大, 佛教文化需注意包装图案禁忌, 旅游经济带动消费",
+    "tariff_note": "ACFTA: 多数产品零关税(FORM E原产地证)"
+  },
+  "MYS": {
+    "certifications": [
+      {"name": "SIRIM", "description": "马来西亚标准认证", "time": "4-8周", "cost": "$1,000-4,000"},
+      {"name": "MCMC", "description": "无线产品认证", "time": "2-4周", "cost": "$500-2,000"}
+    ],
+    "channel_strategy": "Shopee/Lazada马来西亚站 + 马来西亚进口商 + 利用马来西亚清真认证辐射全球穆斯林市场",
+    "payment_terms": "T/T或L/C",
+    "cultural_note": "英文普及率高沟通无障碍, 多民族市场(马来/华人/印度), 清真认证(Halal)是进入全球穆斯林市场的通行证",
+    "tariff_note": "ACFTA: 多数产品零关税"
+  },
+  "IDN": {
+    "certifications": [
+      {"name": "SNI", "description": "印尼国家标准(多品类强制)", "time": "6-12周", "cost": "$1,500-5,000"},
+      {"name": "POSTEL", "description": "无线通信产品认证", "time": "4-8周", "cost": "$1,000-3,000"}
+    ],
+    "channel_strategy": "Shopee/Tokopedia(印尼本土最大电商) + 雅加达进口商, B2B为主, 印尼有2.7亿人口消费潜力巨大",
+    "payment_terms": "T/T预付为主(印尼买家信用相对弱)",
+    "cultural_note": "东南亚最大消费市场(2.7亿人), 但进口许可和清关较复杂, 清真认证是穆斯林市场必备",
+    "tariff_note": "ACFTA: 多数产品零关税, 但非关税壁垒需要关注"
+  },
+  "SGP": {
+    "certifications": [
+      {"name": "CPSR", "description": "消费品安全要求(部分品类)", "time": "2-4周", "cost": "$500-2,000"},
+      {"name": "IMDA", "description": "无线产品认证", "time": "2-4周", "cost": "$500-2,000"}
+    ],
+    "channel_strategy": "新加坡作为区域总部/转口贸易枢纽 + Amazon SG/Lazada SG + 通过新加坡辐射东盟+南亚市场",
+    "payment_terms": "T/T或L/C, 新加坡买家信誉好",
+    "cultural_note": "零关税自由港, 中英双语环境, 全球最便利的营商环境, 适合做区域总部而非主攻本地消费市场",
+    "tariff_note": "绝大多数产品零关税"
+  },
+  "IND": {
+    "certifications": [
+      {"name": "BIS", "description": "印度标准局强制认证(电子电器核心门槛)", "time": "8-16周", "cost": "$3,000-10,000+", "critical": true},
+      {"name": "WPC", "description": "无线产品认证", "time": "4-8周", "cost": "$1,000-3,000"},
+      {"name": "BEE", "description": "能效标签(部分电器强制)", "time": "4-8周", "cost": "$1,000-4,000"}
+    ],
+    "channel_strategy": "Amazon IN/Flipkart(印度最大电商) + 印度进口商/代理商(必须有本地合作伙伴), B2B为主因为终端消费者价格极度敏感",
+    "payment_terms": "L/C或T/T预付(印度买家付款风险较高, 建议严格付款条件)",
+    "cultural_note": "BIS认证是核心门槛(耗时且贵), 关税高, 价格极度敏感市场, 但14亿人口红利巨大, 长期投入有机会, 宗教文化多元需注意",
+    "tariff_note": "关税高(MFN平均15-20%), 无中印FTA, 非关税壁垒多"
+  },
+  "BRA": {
+    "certifications": [
+      {"name": "INMETRO", "description": "巴西计量质量认证(多品类强制)", "time": "8-16周", "cost": "$2,000-8,000"},
+      {"name": "ANATEL", "description": "电信产品认证", "time": "8-12周", "cost": "$2,000-6,000"},
+      {"name": "ANVISA", "description": "健康相关产品认证", "time": "8-20周", "cost": "视产品"}
+    ],
+    "channel_strategy": "Mercado Libre(美客多巴西站) + 巴西本地进口商/经销商, 必须本地化(葡萄牙语, 本地仓储, 本地售后)",
+    "payment_terms": "L/C或T/T预付(巴西买家风险较高, 汇率波动大), 强烈建议信用保险",
+    "cultural_note": "葡萄牙语是硬门槛(不用英语), 清关慢是世界闻名(平均2-4周), 巴西人注重人际关系(business is personal), 税制复杂",
+    "tariff_note": "关税高(MERCOSUR共同对外关税), 无中巴FTA, 进口税+工业产品税+流转税叠加"
+  },
+  "MEX": {
+    "certifications": [
+      {"name": "NOM", "description": "墨西哥官方标准(多品类强制)", "time": "6-12周", "cost": "$1,500-6,000"},
+      {"name": "IFT", "description": "电信产品认证", "time": "4-8周", "cost": "$1,000-3,000"}
+    ],
+    "channel_strategy": "Mercado Libre墨西哥站 + Amazon MX + 墨西哥进口商, 可利用USMCA做北美跳板(需满足原产地规则)",
+    "payment_terms": "T/T预付或L/C",
+    "cultural_note": "西班牙语必须, USMCA原产地规则是核心考量(如果最终目标是美国市场), 物流到墨西哥比到南美方便",
+    "tariff_note": "无中墨FTA, MFN税率, 但若产品在墨西哥加工再出口美国可利用USMCA"
+  },
+  "ARE": {
+    "certifications": [
+      {"name": "ESMA", "description": "阿联酋标准化认证", "time": "2-6周", "cost": "$1,000-4,000"},
+      {"name": "TRA", "description": "电信产品认证", "time": "2-4周", "cost": "$500-2,000"},
+      {"name": "SABER", "description": "注意: 沙特SABER认证平台, 阿联酋不适用", "time": "N/A", "cost": "N/A"}
+    ],
+    "channel_strategy": "Noon/Amazon AE + 迪拜自由贸易区设立公司/仓库 + 通过迪拜辐射中东+非洲+南亚30亿人口市场",
+    "payment_terms": "T/T预付或L/C, 阿联酋买家资金充裕",
+    "cultural_note": "迪拜是中东转口贸易中心, 英语通用, 零关税自由贸易区, 宗教文化尊重(斋月/清真), 高消费力湾区政府客户多",
+    "tariff_note": "自贸区内零关税, 区外5%低关税"
+  },
+  "SAU": {
+    "certifications": [
+      {"name": "SABER", "description": "沙特产品安全强制认证平台(核心门槛)", "time": "4-12周", "cost": "$1,000-5,000"},
+      {"name": "SASO", "description": "沙特标准组织认证(能源效率等)", "time": "4-12周", "cost": "$1,000-5,000"},
+      {"name": "CITC", "description": "无线产品认证", "time": "2-6周", "cost": "$500-2,000"}
+    ],
+    "channel_strategy": "Noon/Amazon SA + 沙特本地代理商(强烈推荐因为有本地化要求) + 沙特愿景2030催生大量基建和消费需求",
+    "payment_terms": "T/T预付或L/C(沙特买家通常资金充裕)",
+    "cultural_note": "SABER认证是核心门槛必须提前准备, 沙特愿景2030带来巨大机遇, 宗教文化保守(产品包装/广告需注意), 商业关系中人情和信任很重要",
+    "tariff_note": "5%低关税(海合会GCC统一关税)"
+  },
+  "RUS": {
+    "certifications": [
+      {"name": "EAC", "description": "欧亚经济联盟强制认证", "time": "4-12周", "cost": "$2,000-8,000"},
+      {"name": "FSS", "description": "俄罗斯联邦安全局通知(含加密产品)", "time": "2-4周", "cost": "$500-1,500"}
+    ],
+    "channel_strategy": "俄罗斯本土电商(Ozon/Wildberries) + 俄罗斯进口商, 受制裁影响建议通过土耳其/中亚渠道转口",
+    "payment_terms": "人民币跨境结算(中俄本币互换), 受SWIFT制裁影响美元结算困难",
+    "cultural_note": "当前受西方制裁影响大, 支付和物流渠道受限, 但中国产品在俄罗斯市场占有率大幅提升(西方品牌退出), 需评估风险",
+    "tariff_note": "EAEU统一关税, 中俄贸易有部分优惠安排"
+  },
+  "ZAF": {
+    "certifications": [
+      {"name": "SABS", "description": "南非标准局认证", "time": "4-12周", "cost": "$1,000-5,000"},
+      {"name": "NRCS", "description": "国家强制规范(电器等)", "time": "4-8周", "cost": "$1,000-4,000"},
+      {"name": "ICASA", "description": "无线产品认证", "time": "2-6周", "cost": "$500-2,000"}
+    ],
+    "channel_strategy": "Takealot(南非最大电商) + 南非进口商/批发商 + 通过南非辐射南部非洲(博茨瓦纳/津巴布韦等)",
+    "payment_terms": "L/C或T/T预付(南非买家风险中等)",
+    "cultural_note": "南非是非洲最发达市场, 英语通用, 电力供应不稳定(影响生产和物流), 通过南非辐射南部非洲14国",
+    "tariff_note": "WTO MFN税率, 南部非洲关税同盟(SACU)统一对外关税"
+  }
+}
